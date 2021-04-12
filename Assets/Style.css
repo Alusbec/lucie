@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "girly";
+    src: url(../Assets/girly.TTF);
+}
+
+@font-face {
+    
+    font-family: "girlytxt";
+    src: url(../Assets/girlytxt.ttf);
+
+}
+
+header {
+    background-image: url(../Assets/Licorne_5be1b956-fb9f-4213-b1ae-967b0ecebad9.webp);
+    background-size: cover;
+    width: 100%;
+    height: 825px;
+    position: relative;
+
+
+}
+
+
+#titre {
+    font-family: 'girly';
+    position: absolute;
+    font-size: 50pt;
+    top: 60%;
+    left: 60%;
+    color: rgb(240, 128, 128);
+    
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    
+}
+
+li {
+
+    list-style: circle ; color: #f29797;
+    flex: auto;
+    justify-content: center;
+    font-family: 'girlytxt';
+    font-size: 45pt;
+    font-weight: bold;
+}
+
+a {
+    color: #f29797;
+    text-decoration: none;
+}
+
+input{
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+
+legend {
+    font-family: 'girlytxt';
+    font-size: 50pt;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #f29797;
+}
+
+#txt1 {
+    font-family: 'girlytxt';
+    font-size: 50pt;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #f29797;
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#image1 { 
+    background-image: url(../Assets/savants-fous-logo.jpg);
+    width: 16.6%;
+    height: 250Px;
+    float: left
+}
+
+#image2 { 
+    background-image: url(../Assets/ANNIF.png);
+    width: 16.6%;
+    height:200Px;
+    float: left
+
+}
+
+#image3 {
+     background-image: url(../Assets/ROBOT.png);
+     width: 16%;
+     height: 200Px;
+     float: left
+}
+
+#image4 { 
+    background-image: url(../Assets/INSECT.png);
+    width: 16%;
+    height: 200Px;
+    float: left
+}
+
+#image5 {
+     background-image: url(../Assets/VOLCAN.png);
+     width: 16%;
+     height: 200Px;
+     float: left
+}
+
+
